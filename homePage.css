@@ -1,0 +1,20 @@
+.center{
+	text-align: center;
+}
+
+.col-fifth{
+	width: 20%;
+}
+
+#bubble{
+	position: absolute;
+}
+
+#main{
+	position: relative;
+}
+
+#header{
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
