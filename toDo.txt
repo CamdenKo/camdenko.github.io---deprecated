@@ -1,0 +1,6 @@
+index.html - 
+fix images if the web page is short
+
+landingPage.html - 
+add content
+back button is too large clicking area

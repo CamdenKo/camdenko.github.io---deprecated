@@ -1,0 +1,113 @@
+/* #F38181 - background
+ #FCE38A #EAFFD0 #95E1D3*/
+
+html{
+  background-color: #F38181;
+  width: 100%;
+  padding: 0 0;
+}
+body{
+  margin: 0 0;
+}
+
+.center{
+  text-align: center;
+}
+
+h1{
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  color: #FCE38A;
+  margin-top: .67em;
+}
+
+#subtitle{
+  font-family: 'Raleway', sans-serif;
+  color: #95E1D3;
+  font-size: 70px;
+  padding: 0 0;
+  margin: 0 0;
+}
+
+#bio{
+  font-family: 'Sanchez',serif;
+  color: white;
+  font-size: 35px;
+}
+
+.textContainer{
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+
+.description{
+  font-family: 'Sanchez', sans-serif;
+  color: white;
+  font-size: 32px;
+  MARGIN-top: 0;
+  padding: 0px 35px 5px 35px;
+}
+
+
+
+#scrollContainer{
+  text-align: right;
+  position: fixed;
+  right: 0px;
+  top: 140px;
+  width: 170px;
+  font-size: 25px;
+  font-family: 'Sanchez',sans-serif;
+  border: 3px dashed white;
+  border-right: 0px;
+  visibility: hidden;
+}
+
+@media screen and (min-width: 73em){
+  #scrollContainer{
+    visibility: visible;
+  }
+}
+.scrollBox{
+  padding: 5px 20px 5px;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.scrollBox:nth-child(even){
+  background-color: #FCE38A;
+  color: #F38181;
+}
+
+.scrollBox:nth-child(odd){
+  background-color:#F38181;
+  color: #FCE38A;
+}
+
+.backgroundP{
+  padding-bottom: 100px;
+  padding-top: .67em;
+  /*border: 3px dashed white;*/
+
+}
+
+.backgroundP:nth-child(even){
+  background-color:#FCE38A;
+}
+
+.backgroundP:nth-child(even) h1{
+  color: #F38181;
+}
+
+a{
+  text-decoration: none;
+  color: #FCE38A;
+}
+
+#backImg{
+  width: 175px;
+  height: 175px;
+  margin: auto;
+  display: block;
+}

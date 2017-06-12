@@ -1,0 +1,71 @@
+html,body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  background-color: #F38181;
+  z-index: 2;
+  color: white;
+}
+
+/*fonts: raleway Lusitana*/
+
+#particleCanvas{
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  right: 0px;
+  top: 0px;
+  z-index: 1;
+}
+
+h1{
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+}
+
+.center{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+
+}
+
+.transBox{
+  position: absolute;
+  opacity: 0;
+}
+
+.visible{
+  opacity: 1;
+  transition: opacity 4s;
+}
+
+#subtitle{
+  top: 110px;
+  font-size:60px;
+  font-family: 'Sanchez', serif;
+}
+
+
+img{
+  position:absolute;
+  width: 175px;
+  height: 175px;
+}
+
+#git{
+top: 350px;
+}
+
+#linkedin{
+top: 550px;
+}
+
+#enter{
+  top: 750px;
+}
