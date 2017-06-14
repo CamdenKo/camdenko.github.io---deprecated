@@ -1,0 +1,11 @@
+#flexContain{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+}
+
+#circle{
+  width: 20%;
+  height: 20%;
+}
