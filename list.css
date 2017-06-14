@@ -1,11 +1,34 @@
-#flexContain{
+/* #F38181 - background
+ #FCE38A #EAFFD0 #95E1D3*/
+
+.flexContain{
+  margin-top: -50px;
   display: flex;
   flex-direction: row;
-  width: 100%;
-  justify-content: space-around;
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+  position: relative;
+  padding-bottom: 55px;
 }
 
-#circle{
-  width: 20%;
-  height: 20%;
+.circle{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  font-family: 'Sanchez';
+  color: white;
+  text-align: center;
+  position: relative;
+  border: 3px dashed white;
+  cursor: pointer;
+  cursor: hand;
 }
+
+.circleT{
+  position: absolute;
+  top: 40%;
+  width: 100%;
+}
+

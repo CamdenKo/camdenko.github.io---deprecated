@@ -2,5 +2,7 @@ index.html -
 fix images if the web page is short X
 
 landingPage.html -
+Add scrolling content DIVS
+Add movement between divs
 add content
-back button is too large clicking area
+back button is too large clicking area X
