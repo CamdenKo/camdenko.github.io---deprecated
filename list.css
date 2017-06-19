@@ -32,3 +32,16 @@
   width: 100%;
 }
 
+.sideScrollParent{
+  overflow: hidden;
+  float: left;
+  width: 100%;
+}
+
+.sideScrollChild{
+  position: relative;
+  width: 100%;
+  background: black;
+  float: left;
+}
+
