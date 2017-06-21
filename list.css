@@ -1,7 +1,7 @@
 /* #F38181 - background
  #FCE38A #EAFFD0 #95E1D3*/
 
-.flexContain{
+.flexContain {
   margin-top: -50px;
   display: flex;
   flex-direction: row;
@@ -13,7 +13,7 @@
   padding-bottom: 55px;
 }
 
-.circle{
+.circle {
   height: 100px;
   width: 100px;
   border-radius: 50%;
@@ -26,22 +26,36 @@
   cursor: hand;
 }
 
-.circleT{
-  position: absolute;
+.circleT {
+  position: relative;
   top: 40%;
   width: 100%;
 }
 
-.sideScrollParent{
+.sideScrollParent {
   overflow: hidden;
-  float: left;
   width: 100%;
+  height: 500px;
 }
 
-.sideScrollChild{
+.sideScrollChild {
+  top: 0;
+  position: absolute;
+  visibility: hidden;
+  width: 100%;
+  height: 500px;
+}
+
+.hideOverflow {
+  overflow: hidden;
   position: relative;
-  width: 100%;
-  background: black;
-  float: left;
 }
 
+.active {
+  visibility: visible;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
