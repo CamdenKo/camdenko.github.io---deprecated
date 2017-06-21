@@ -1,5 +1,7 @@
 index.html -
-fix images if the web page is short X
+bubbles don't disappear at the right time.
+Change the bubbles to apear lower depending on the aspect ratio
+fix where the links are depending on the aspect ratio
 
 landingPage.html -
 Add scrolling content DIVS
