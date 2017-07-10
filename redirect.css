@@ -1,0 +1,43 @@
+.circle{
+  display: block;
+  border-radius: 50%;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%;
+  margin-bottom: 15px;
+  margin-top: 15px;
+  opacity: .9;
+  color: white;
+}
+
+.center{
+  text-align: center;
+}
+
+html{
+    background-color: #F38181;
+}
+
+h1 {
+  color: white;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100px;
+  padding-top: .67em;
+}
+
+.col1{
+  background-color: #FCE38A;
+}
+
+.col2{
+  background-color: #EAFFD0;
+}
+
+.col3{
+  background-color: #95E1D3;
+}
+
+.circleT{
+  opacity: 1;
+}
