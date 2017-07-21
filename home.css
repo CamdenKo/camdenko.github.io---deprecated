@@ -1,3 +1,10 @@
+/* #F38181 - background
+ #FCE38A #EAFFD0 #95E1D3*/
+
+ /* #4D606E - background
+#3FBAC2 BLUE #D3D4D8 GRAY #F5F5F5 WHITE
+ */
+
 html,
 body {
   width: 100%;
@@ -6,9 +13,9 @@ body {
   margin: 0;
   overflow: hidden;
   display: block;
-  background-color: #F38181;
+  background-color: #4D606E;
   z-index: 2;
-  color: white;
+  color: #F5F5F5;
 }
 
 
@@ -24,7 +31,7 @@ body {
 }
 
 h1 {
-  color: white;
+  color: #F5F5F5;
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
 }
@@ -48,10 +55,11 @@ h1 {
 }
 
 #subtitle {
-  top: 110px;
-  font-size: 60px;
+  top: 120px;
+  font-size: 50px;
   font-family: 'Sanchez', serif;
 }
+
 
 img {
   width: 125px;
@@ -98,19 +106,20 @@ img {
 
 @media screen and (min-height: 900px) {
   #git {
-    top: 350px;
-    left: 0px;
+    top: 750px;
+    left: -300px;
   }
   #linkedin {
-    top: 550px;
+    top: 750px;
+    right: -300px;
   }
   #enter {
     top: 750px;
     right: 0px;
   }
   img {
-    width: 175px;
-    height: 175px;
+    width: 125px;
+    height: 125px;
     margin-left: auto;
     margin-right: auto;
     left: 0;

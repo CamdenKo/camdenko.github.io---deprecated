@@ -1,6 +1,10 @@
 /* #F38181 - background
  #FCE38A #EAFFD0 #95E1D3*/
 
+  /* #4D606E - background
+#3FBAC2 BLUE #D3D4D8 GRAY #F5F5F5 WHITE
+ */
+
 .flexContain {
   margin-top: -50px;
   display: flex;
@@ -18,12 +22,20 @@
   width: 100px;
   border-radius: 50%;
   font-family: 'Sanchez';
-  color: white;
   text-align: center;
   position: relative;
-  border: 3px dashed white;
   cursor: pointer;
   cursor: hand;
+}
+
+.grey {
+  color:#4D606E;
+  border: 3px dashed #4D606E;
+}
+
+.white {
+  color: #F5F5F5;
+  border: 3px dashed #F5F5F5;
 }
 
 .circleT {

@@ -2,7 +2,10 @@
 // #F38181 - background
 // #FCE38A #EAFFD0 #95E1D3
 
-var colors = ['#FCE38A', '#EAFFD0', '#95E1D3']
+ /* #4D606E - background
+#3FBAC2 BLUE #D3D4D8 GRAY #F5F5F5 WHITE
+ */
+var colors = ['#3FBAC2', '#D3D4D8', '#F5F5F5']
 
 function Particle(maxX, snap, radius, color, opacity) {
   this.radius = radius || generateRadius(5, 25)

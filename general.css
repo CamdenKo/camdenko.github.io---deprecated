@@ -1,8 +1,13 @@
 /* #F38181 - background
  #FCE38A #EAFFD0 #95E1D3*/
 
+ /* #4D606E - background
+#3FBAC2 BLUE #D3D4D8 GRAY #F5F5F5 WHITE
+ */
+
+
 html{
-  background-color: #F38181;
+  background-color: #4D606E;
   width: 100%;
   padding: 0 0;
 }
@@ -17,7 +22,7 @@ body{
 h1{
   font-family: 'Raleway', sans-serif;
   font-size: 100px;
-  color: #FCE38A;
+  color: #F5F5F5;
   opacity: 110%;
   margin-top: .67em;
   padding: 0 20px 0 20px;
@@ -25,7 +30,7 @@ h1{
 
 #subtitle{
   font-family: 'Raleway', sans-serif;
-  color: #95E1D3;
+  color: #D3D4D8;
   font-size: 70px;
   padding: 0 0;
   margin: 0 0;
@@ -33,7 +38,7 @@ h1{
 
 #bio{
   font-family: 'Sanchez',serif;
-  color: white;
+  color: #F5F5F5;
   font-size: 35px;
 }
 
@@ -46,7 +51,7 @@ h1{
 
 .description{
   font-family: 'Sanchez', sans-serif;
-  color: white;
+  color: #F5F5F5;
   font-size: 32px;
   MARGIN-top: 0;
   padding: 0px 35px 55px 35px;
@@ -62,7 +67,7 @@ h1{
   width: 170px;
   font-size: 25px;
   font-family: 'Sanchez',sans-serif;
-  border: 3px dashed white;
+  border: 3px dashed #D3D4D8;
   border-right: 0px;
   visibility: hidden;
 }
@@ -79,33 +84,33 @@ h1{
 }
 
 .scrollBox:nth-child(even){
-  background-color: #FCE38A;
-  color: #F38181;
+  background-color: #F5F5F5;
+  color: #4D606E;
 }
 
 .scrollBox:nth-child(odd){
-  background-color:#F38181;
-  color: #FCE38A;
+  background-color:#4D606E;
+  color: #F5F5F5;
 }
 
 .backgroundP{
   padding-top: .67em;
-  
+
   /*border: 3px dashed white;*/
 
 }
 
 .backgroundP:nth-child(even){
-  background-color:#FCE38A;
+  background-color:#F5F5F5;
 }
 
 .backgroundP:nth-child(even) h1{
-  color: #F38181;
+  color: #4D606E;
 }
 
 a{
   text-decoration: none;
-  color: #FCE38A;
+  color: #F5F5F5;
 }
 
 #backImg{
